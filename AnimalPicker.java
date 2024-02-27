@@ -7,7 +7,7 @@ public class AnimalPicker
         boolean correctInput = true;
         do
         {
-            System.out.print("Would you like to see a dog or a cat: ");
+            System.out.print("Would you like to see a dog, a cat, or a fish: ");
             String answer = scanner.nextLine();
 
             if (answer.equals("dog"))
@@ -18,6 +18,11 @@ public class AnimalPicker
             else if (answer.equals("cat"))
             {
                 System.out.println(" /\\_/\\\n( o.o )\n > ^ <");
+                correctInput = true;
+            }
+            else if (answer.equals("fish"))
+            {
+                System.out.println(".            ,\n           .:/\n.      ,,///;,   ,;/\n  .   o:::::::;;///\n     >::::::::;;\\\\\\\n       \'\'\\\\\\\\\\\'\" \';\\\n          \';\\");
                 correctInput = true;
             }
             else
