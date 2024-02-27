@@ -14,5 +14,9 @@ public class AnimalPicker
         {
             System.out.println("CAT ASCII ART HERE");
         }
+        else
+        {
+            System.out.println("Error: you must enter \"dog\" or \"cat\"");
+        }
     }
 }
