@@ -12,12 +12,12 @@ public class AnimalPicker
 
             if (answer.equals("dog"))
             {
-                System.out.println("DOG ASCII ART HERE");
+                System.out.println("  __      _\no\'\')}____//\n `_/      )\n (_(_/-(_/\n");
                 correctInput = true;
             }
             else if (answer.equals("cat"))
             {
-                System.out.println("CAT ASCII ART HERE");
+                System.out.println(" /\\_/\\\n( o.o )\n > ^ <");
                 correctInput = true;
             }
             else
